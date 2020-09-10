@@ -54,7 +54,7 @@ class SettingSeeder extends Seeder
             'name' => 'Contact-us',
             'btn' => 'تماس با ما',
             'value' => json_encode([
-                'phone_number' => '091234567892',
+                'phone_number' => '09123456789',
                 'address' => 'آدرس',
                 'email' => 'info@awebsite.com',
                 'instagram' => 'https://www.instagram',

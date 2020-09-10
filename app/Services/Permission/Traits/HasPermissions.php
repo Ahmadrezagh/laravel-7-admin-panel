@@ -2,8 +2,8 @@
 
 namespace App\Services\Permission\Traits;
 
-use App\Models\Admin;
-use App\Models\Permission;
+use App\Admin;
+use App\Permission;
 use Illuminate\Support\Arr;
 
 trait HasPermissions

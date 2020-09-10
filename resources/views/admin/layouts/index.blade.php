@@ -166,6 +166,7 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level collapse" aria-expanded="false">
+                                    
                                     <li>
                                     <a href="{{ route('setting.index','Site-setting') }}" > تنظیمات کلی</a>
                                     </li>

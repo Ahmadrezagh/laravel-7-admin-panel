@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 //Auth Router Admin
+
 Route::get('administrator/login', 'Admin\AuthController@showLoginForm')->name('admin.login');
+Route::get('administrator/login', 'Admin\AuthController@showLoginForm')->name('login');
 Route::post('administrator/login', 'Admin\AuthController@login')->name('admin.login.submit');
 Route::post('administrator/logout', 'Admin\AuthController@logout')->name('admin.logout');
 

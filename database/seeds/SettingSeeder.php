@@ -14,6 +14,7 @@ class SettingSeeder extends Seeder
          //Top od Site
          DB::table('settings')->insert([
             'name' => 'Site-setting',
+            'btn' =>    'تنظیمات کلی',
             'value' => json_encode([
                 'name_fa' => 'قالب ادمین',
                 'name_en' => 'Admin Pannel',
@@ -38,6 +39,7 @@ class SettingSeeder extends Seeder
         ///
         DB::table('settings')->insert([
             'name' => 'About_us',
+            'btn' =>    'درباره ما',
             'value' => json_encode('متن برای درباره ما'),
             'description' => json_encode('محتوای درباره ما'),
         ]);
@@ -46,6 +48,7 @@ class SettingSeeder extends Seeder
         //Fileds Contact-us
         DB::table('settings')->insert([
             'name' => 'Contact-us',
+            'btn' => 'تماس با ما',
             'value' => json_encode([
                 'phone_number' => '091234567892',
                 'address' => 'آدرس',
@@ -72,6 +75,7 @@ class SettingSeeder extends Seeder
 
         DB::table('settings')->insert([
             'name' => 'Seo',
+            'btn' => 'تنظیمات سئو',
             'value' => json_encode([
                 'title' => 'website',
                 'description' => 'دسکریپشن',

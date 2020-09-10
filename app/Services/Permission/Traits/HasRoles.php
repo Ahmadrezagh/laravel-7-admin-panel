@@ -2,7 +2,7 @@
 
 namespace App\Services\Permission\Traits;
 
-use App\Role;
+use App\Models\Role;
 use Illuminate\Support\Arr;
 
 trait HasRoles

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa">
 
-<!-- Mirrored from coderthemes.com/ubold/layouts/light-rtl/layouts-light-topbar.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Oct 2019 22:37:43 GMT -->
 <head>
     <meta charset="utf-8"/>
     <title>پنل ادمین - @yield('title')</title>
@@ -353,5 +352,4 @@
 @yield('script')
 </body>
 
-<!-- Mirrored from coderthemes.com/ubold/layouts/light-rtl/layouts-light-topbar.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Oct 2019 22:37:44 GMT -->
 </html>

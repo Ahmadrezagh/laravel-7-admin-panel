@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Admin;
+use App\Models\Admin;
 use App\Http\Controllers\Controller;
-use App\Permission;
-use App\Role;
+use App\Models\Permission;
+use App\Models\Role;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use App\Setting;
+use App\Models\Setting;
 use Illuminate\Support\Facades\Validator;
 
 class SettingController extends Controller

@@ -166,21 +166,12 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level collapse" aria-expanded="false">
+                                    @foreach(DB::table('settings')->get() as $setting)
+                                    <li>
+                                    <a href="{{ route('setting.index',$setting->name) }}" > {{$setting->btn}}</a>
+                                    </li>
+                                    @endforeach
                                     
-                                    <li>
-                                    <a href="{{ route('setting.index','Site-setting') }}" > تنظیمات کلی</a>
-                                    </li>
-                                    <li>
-                                    <a href="{{ route('setting.index', 'Contact-us')}}">تماس با ما</a>
-                                    </li>
-                                    <li>
-                                    <a href="{{ route('setting.index' ,'About_us')}}"> درباره ما</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('setting.index' ,'Seo')}}">تنظیمات سئو</a>
-                                    </li>
-                                </ul>
-                            </li>
                         @endif
                     </ul>
 

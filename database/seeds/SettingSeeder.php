@@ -40,8 +40,12 @@ class SettingSeeder extends Seeder
         DB::table('settings')->insert([
             'name' => 'About_us',
             'btn' =>    'درباره ما',
-            'value' => json_encode('متن برای درباره ما'),
-            'description' => json_encode('محتوای درباره ما'),
+            'value' => json_encode([
+                'about_us'=>'متن برای درباره ما',
+            ]),
+            'description' => json_encode([
+                'about_us' => 'محتوای درباره ما'
+                ]),
         ]);
 
 

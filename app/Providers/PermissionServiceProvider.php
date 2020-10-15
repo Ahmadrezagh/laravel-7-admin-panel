@@ -16,7 +16,7 @@ class PermissionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        
     }
 
     /**
